@@ -99,21 +99,27 @@ h2{
     margin-right: 1rem;
     margin-bottom: 30px;
     cursor: pointer;
+    transition: all 200ms ease-in-out;
+}
+.main .btn button:hover{
+    background-color: black;
+    color: white;
+    transform: scale(1.1);
 }
 
 .main .btn .btn-2 {
     padding: 8px 30px;
-    background: #2a2a2a;
-    color: #fff;
-    border: none;
+    background:transparent;
+    color:black;
+    border: 1px solid #2a2a2a;
     outline: none;
     transition: all 200ms ease-in-out;
 
 }
 
 .main .btn .btn-2:hover {
-    background-color: rgb(12, 97, 201);
-    color: black;
+    background-color:black;
+    color: white;
     transform: scale(1.1);
 }
 
